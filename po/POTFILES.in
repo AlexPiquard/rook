@@ -1,0 +1,11 @@
+crates/rook-core/src/lib.rs
+crates/rook-gtk/src/app.rs
+crates/rook-gtk/src/config.rs
+crates/rook-gtk/src/main.rs
+crates/rook-gtk/src/modals/about.rs
+crates/rook-gtk/src/modals/mod.rs
+crates/rook-gtk/src/modals/shortcuts.rs
+data/fr.alexpiquard.rook.desktop.in.in
+data/fr.alexpiquard.rook.gschema.xml.in
+data/fr.alexpiquard.rook.metainfo.xml.in.in
+data/resources/fr.alexpiquard.rook.gresource.xml.in

@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+members = [
+	"crates/rook-core",
+	"crates/rook-gtk",
+]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Alex Piquard <alex.piquard@hotmail.com>"]
+description = "Simple email client for Linux"
+edition = "2024"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AlexPiquard/rook"
+publish = false
+
+[profile.release]
+lto = true
